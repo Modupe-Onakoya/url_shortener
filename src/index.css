@@ -1,1 +1,6 @@
 @import "tailwindcss";
+
+.container {
+  background-color: hsl(257, 27%, 26%);
+  color: white;
+}
