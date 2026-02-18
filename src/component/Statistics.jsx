@@ -25,7 +25,7 @@ const Statistics = () => {
         },
     ]
     return (
-        <div className='px-8 sm:px-12 lg:px-24 xl:px-40 pt-10 bg-gray-200'>
+        <div className='px-8 sm:px-12 lg:px-24 xl:px-40 pt-10 bg-gray-200 '>
             <h1 className='text-center font-bold text-2xl'>
                 Advanced Statistics
             </h1>
@@ -33,7 +33,7 @@ const Statistics = () => {
                 Track how your links are performing across the web  <span>with our advanced statistics dashboard.</span>
             </p>
 
-            <div className='pt-5 space-y-3'>
+            <div className='pt-5 pt-10 max-sm:space-y-10 sm:flex gap-6 sm:justify-center '>
                 {statistics.map((stats, index) => (
                     <StatisticsCard img={stats.img} head={stats.head} desc={stats.desc} />
                 ))}
