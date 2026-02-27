@@ -25,7 +25,7 @@ const Statistics = () => {
         },
     ]
     return (
-        <div className='px-8 sm:px-12 lg:px-24 xl:px-40 pt-10 bg-gray-200 '>
+        <div className='px-8 sm:px-12 lg:px-24 xl:px-40 pt-10 bg-gray-200 sm:flex sm:flex-col sm:judtify-center sm:items-center '>
             <h1 className='text-center font-bold text-2xl'>
                 Advanced Statistics
             </h1>
