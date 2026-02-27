@@ -33,7 +33,7 @@ const Statistics = () => {
                 Track how your links are performing across the web  <span>with our advanced statistics dashboard.</span>
             </p>
 
-            <div className='pt-5 pt-10 max-sm:space-y-10 sm:flex gap-6 sm:justify-center '>
+            <div className='pt-5 pt-10 max-sm:space-y-10 sm:flex gap-6 sm:justify-center sm:items-enter '>
                 {statistics.map((stats, index) => (
                     <StatisticsCard img={stats.img} head={stats.head} desc={stats.desc} />
                 ))}
