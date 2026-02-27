@@ -3,11 +3,12 @@ import asset from '../assets/asset'
 
 const FooterTwo = () => {
     return (
-        <div className='px-8 sm:px-12 lg:px-24 xl:px-40 pt-10 text-sm flex max-sm:flex-col items-center text-white bg-gray-700 justify-center gap-10'>
-            <div className='grid sm:grid-cols-4'>
-                <img src={asset.logo} alt="" className='bg-white p-2 sm:size-20' />
+        <div className='px-8 sm:px-12 lg:px-24 xl:px-40 pt-10 text-sm flex max-sm:flex-col items-center text-white bg-gray-700 justify-center sm:gap-40'>
 
-                <ul className='max-sm:pt-5 space-y-2 flex flex-col items-center'>
+            <img src={asset.logo} alt="" className='bg-white p-2 sm:size-15' />
+
+            <div className='sm:flex gap-20'>
+                <ul className='max-sm:pt-5 space-y-2 flex flex-col items-center sm:py-5'>
                     <li className='font-bold '>
                         Features
                     </li>
